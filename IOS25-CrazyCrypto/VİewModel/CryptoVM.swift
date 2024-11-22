@@ -14,15 +14,22 @@ class CryptoVM{
     let error : PublishSubject<String> = PublishSubject()
     let loading : PublishSubject<Bool> = PublishSubject()
     
-    func requestData(cryptoList: [Crypto] , urlString: String){
+    func requestData(urlString: String){
         self.loading.onNext(true)
         let url = URL(string: urlString)!
         WebService().downloadCurrencies(url: url) { result in
+            self.loading.onNext(false)
             switch result {
             case .success(let cryptos):
-                print("asd")
+                self.cryptos.onNext(cryptos)
             case .failure(let error):
-                print(error.localizedDescription)
+                switch error {
+                case .parsingError :
+                    self.error.onNext("Parsing Error")
+                case .serverError :
+                    self.error.onNext("Server Error")
+                    
+                }
             }
         }
     }
