@@ -6,47 +6,72 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8FFBB2A3028BC30EBF123DC1 /* Pods_IOS25_CrazyCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C15F295ED153ABDB6E578EC /* Pods_IOS25_CrazyCrypto.framework */; };
+		C63EC9C22CF06E030086A9D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63EC9B82CF06E030086A9D2 /* AppDelegate.swift */; };
+		C63EC9C32CF06E030086A9D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63EC9BF2CF06E030086A9D2 /* SceneDelegate.swift */; };
+		C63EC9C42CF06E030086A9D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63EC9C02CF06E030086A9D2 /* ViewController.swift */; };
+		C63EC9C52CF06E030086A9D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C63EC9B92CF06E030086A9D2 /* Assets.xcassets */; };
+		C63EC9C72CF06E030086A9D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C63EC9BC2CF06E030086A9D2 /* LaunchScreen.storyboard */; };
+		C63EC9C82CF06E030086A9D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C63EC9BE2CF06E030086A9D2 /* Main.storyboard */; };
+		C63EC9CE2CF0709E0086A9D2 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63EC9CD2CF0709E0086A9D2 /* Crypto.swift */; };
+		C63EC9D12CF074150086A9D2 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63EC9D02CF0740C0086A9D2 /* WebService.swift */; };
+		C63EC9D32CF088B70086A9D2 /* CryptoVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63EC9D22CF088B30086A9D2 /* CryptoVM.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		47DEE829C5F7F645F0793AEC /* Pods-IOS25-CrazyCrypto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS25-CrazyCrypto.release.xcconfig"; path = "Target Support Files/Pods-IOS25-CrazyCrypto/Pods-IOS25-CrazyCrypto.release.xcconfig"; sourceTree = "<group>"; };
+		4C15F295ED153ABDB6E578EC /* Pods_IOS25_CrazyCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOS25_CrazyCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3235EBA888DA4332D217CCD /* Pods-IOS25-CrazyCrypto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS25-CrazyCrypto.debug.xcconfig"; path = "Target Support Files/Pods-IOS25-CrazyCrypto/Pods-IOS25-CrazyCrypto.debug.xcconfig"; sourceTree = "<group>"; };
 		C63EC9A02CF06A4E0086A9D2 /* IOS25-CrazyCrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS25-CrazyCrypto.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C63EC9B82CF06E030086A9D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C63EC9B92CF06E030086A9D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C63EC9BA2CF06E030086A9D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C63EC9BB2CF06E030086A9D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C63EC9BD2CF06E030086A9D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C63EC9BF2CF06E030086A9D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C63EC9C02CF06E030086A9D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C63EC9CD2CF0709E0086A9D2 /* Crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
+		C63EC9D02CF0740C0086A9D2 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		C63EC9D22CF088B30086A9D2 /* CryptoVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		C63EC9B22CF06A4F0086A9D2 /* Exceptions for "IOS25-CrazyCrypto" folder in "IOS25-CrazyCrypto" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = C63EC99F2CF06A4E0086A9D2 /* IOS25-CrazyCrypto */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		C63EC9A22CF06A4E0086A9D2 /* IOS25-CrazyCrypto */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				C63EC9B22CF06A4F0086A9D2 /* Exceptions for "IOS25-CrazyCrypto" folder in "IOS25-CrazyCrypto" target */,
-			);
-			path = "IOS25-CrazyCrypto";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C63EC99D2CF06A4E0086A9D2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FFBB2A3028BC30EBF123DC1 /* Pods_IOS25_CrazyCrypto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2246B3755C6D07DFF38F0B62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3235EBA888DA4332D217CCD /* Pods-IOS25-CrazyCrypto.debug.xcconfig */,
+				47DEE829C5F7F645F0793AEC /* Pods-IOS25-CrazyCrypto.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3913CE5A73C69AF2853EDE16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C15F295ED153ABDB6E578EC /* Pods_IOS25_CrazyCrypto.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C63EC9972CF06A4E0086A9D2 = {
 			isa = PBXGroup;
 			children = (
-				C63EC9A22CF06A4E0086A9D2 /* IOS25-CrazyCrypto */,
+				C63EC9C12CF06E030086A9D2 /* IOS25-CrazyCrypto */,
 				C63EC9A12CF06A4E0086A9D2 /* Products */,
+				2246B3755C6D07DFF38F0B62 /* Pods */,
+				3913CE5A73C69AF2853EDE16 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +83,56 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		C63EC9C12CF06E030086A9D2 /* IOS25-CrazyCrypto */ = {
+			isa = PBXGroup;
+			children = (
+				C63EC9CF2CF074080086A9D2 /* Service */,
+				C63EC9CB2CF06F580086A9D2 /* Model */,
+				C63EC9C92CF06F440086A9D2 /* View */,
+				C63EC9CA2CF06F4C0086A9D2 /* VİewModel */,
+				C63EC9B92CF06E030086A9D2 /* Assets.xcassets */,
+				C63EC9BA2CF06E030086A9D2 /* Info.plist */,
+				C63EC9BC2CF06E030086A9D2 /* LaunchScreen.storyboard */,
+				C63EC9BE2CF06E030086A9D2 /* Main.storyboard */,
+			);
+			path = "IOS25-CrazyCrypto";
+			sourceTree = "<group>";
+		};
+		C63EC9C92CF06F440086A9D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C63EC9B82CF06E030086A9D2 /* AppDelegate.swift */,
+				C63EC9BF2CF06E030086A9D2 /* SceneDelegate.swift */,
+				C63EC9C02CF06E030086A9D2 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C63EC9CA2CF06F4C0086A9D2 /* VİewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C63EC9D22CF088B30086A9D2 /* CryptoVM.swift */,
+			);
+			name = "VİewModel";
+			path = "VİewModel";
+			sourceTree = "<group>";
+		};
+		C63EC9CB2CF06F580086A9D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C63EC9CD2CF0709E0086A9D2 /* Crypto.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C63EC9CF2CF074080086A9D2 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C63EC9D02CF0740C0086A9D2 /* WebService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,20 +140,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C63EC9B32CF06A4F0086A9D2 /* Build configuration list for PBXNativeTarget "IOS25-CrazyCrypto" */;
 			buildPhases = (
+				D9E4C7BCE580A6E70B22A331 /* [CP] Check Pods Manifest.lock */,
 				C63EC99C2CF06A4E0086A9D2 /* Sources */,
 				C63EC99D2CF06A4E0086A9D2 /* Frameworks */,
 				C63EC99E2CF06A4E0086A9D2 /* Resources */,
+				5C5FEE684E2FF1FCF8696225 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				C63EC9A22CF06A4E0086A9D2 /* IOS25-CrazyCrypto */,
-			);
 			name = "IOS25-CrazyCrypto";
-			packageProductDependencies = (
-			);
 			productName = "IOS25-CrazyCrypto";
 			productReference = C63EC9A02CF06A4E0086A9D2 /* IOS25-CrazyCrypto.app */;
 			productType = "com.apple.product-type.application";
@@ -122,30 +194,102 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C63EC9C52CF06E030086A9D2 /* Assets.xcassets in Resources */,
+				C63EC9C72CF06E030086A9D2 /* LaunchScreen.storyboard in Resources */,
+				C63EC9C82CF06E030086A9D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C5FEE684E2FF1FCF8696225 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IOS25-CrazyCrypto/Pods-IOS25-CrazyCrypto-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IOS25-CrazyCrypto/Pods-IOS25-CrazyCrypto-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IOS25-CrazyCrypto/Pods-IOS25-CrazyCrypto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9E4C7BCE580A6E70B22A331 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IOS25-CrazyCrypto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C63EC99C2CF06A4E0086A9D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C63EC9CE2CF0709E0086A9D2 /* Crypto.swift in Sources */,
+				C63EC9D32CF088B70086A9D2 /* CryptoVM.swift in Sources */,
+				C63EC9C22CF06E030086A9D2 /* AppDelegate.swift in Sources */,
+				C63EC9C32CF06E030086A9D2 /* SceneDelegate.swift in Sources */,
+				C63EC9D12CF074150086A9D2 /* WebService.swift in Sources */,
+				C63EC9C42CF06E030086A9D2 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		C63EC9BC2CF06E030086A9D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C63EC9BB2CF06E030086A9D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C63EC9BE2CF06E030086A9D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C63EC9BD2CF06E030086A9D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		C63EC9B42CF06A4F0086A9D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3235EBA888DA4332D217CCD /* Pods-IOS25-CrazyCrypto.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J4QF7K26GP;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "IOS25-CrazyCrypto/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -168,12 +312,14 @@
 		};
 		C63EC9B52CF06A4F0086A9D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47DEE829C5F7F645F0793AEC /* Pods-IOS25-CrazyCrypto.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J4QF7K26GP;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "IOS25-CrazyCrypto/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
