@@ -10,7 +10,7 @@
 		8FFBB2A3028BC30EBF123DC1 /* Pods_IOS25_CrazyCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C15F295ED153ABDB6E578EC /* Pods_IOS25_CrazyCrypto.framework */; };
 		C63EC9C22CF06E030086A9D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63EC9B82CF06E030086A9D2 /* AppDelegate.swift */; };
 		C63EC9C32CF06E030086A9D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63EC9BF2CF06E030086A9D2 /* SceneDelegate.swift */; };
-		C63EC9C42CF06E030086A9D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63EC9C02CF06E030086A9D2 /* ViewController.swift */; };
+		C63EC9C42CF06E030086A9D2 /* CryptoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63EC9C02CF06E030086A9D2 /* CryptoViewController.swift */; };
 		C63EC9C52CF06E030086A9D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C63EC9B92CF06E030086A9D2 /* Assets.xcassets */; };
 		C63EC9C72CF06E030086A9D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C63EC9BC2CF06E030086A9D2 /* LaunchScreen.storyboard */; };
 		C63EC9C82CF06E030086A9D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C63EC9BE2CF06E030086A9D2 /* Main.storyboard */; };
@@ -30,7 +30,7 @@
 		C63EC9BB2CF06E030086A9D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C63EC9BD2CF06E030086A9D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C63EC9BF2CF06E030086A9D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C63EC9C02CF06E030086A9D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C63EC9C02CF06E030086A9D2 /* CryptoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViewController.swift; sourceTree = "<group>"; };
 		C63EC9CD2CF0709E0086A9D2 /* Crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
 		C63EC9D02CF0740C0086A9D2 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		C63EC9D22CF088B30086A9D2 /* CryptoVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoVM.swift; sourceTree = "<group>"; };
@@ -103,7 +103,7 @@
 			children = (
 				C63EC9B82CF06E030086A9D2 /* AppDelegate.swift */,
 				C63EC9BF2CF06E030086A9D2 /* SceneDelegate.swift */,
-				C63EC9C02CF06E030086A9D2 /* ViewController.swift */,
+				C63EC9C02CF06E030086A9D2 /* CryptoViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -254,7 +254,7 @@
 				C63EC9C22CF06E030086A9D2 /* AppDelegate.swift in Sources */,
 				C63EC9C32CF06E030086A9D2 /* SceneDelegate.swift in Sources */,
 				C63EC9D12CF074150086A9D2 /* WebService.swift in Sources */,
-				C63EC9C42CF06E030086A9D2 /* ViewController.swift in Sources */,
+				C63EC9C42CF06E030086A9D2 /* CryptoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

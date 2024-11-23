@@ -9,7 +9,7 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-class ViewController: UIViewController , UITableViewDelegate, UITableViewDataSource{
+class CryptoViewController: UIViewController , UITableViewDelegate, UITableViewDataSource{
     
     var cryptoList = [Crypto]()
     let cryptoVM = CryptoVM()
@@ -39,11 +39,14 @@ class ViewController: UIViewController , UITableViewDelegate, UITableViewDataSou
         tableView.delegate = self
         tableView.dataSource = self
         
+        let urlString = "https://raw.githubusercontent.com/atilsamancioglu/K21-JSONDataSet/refs/heads/master/crypto.json"
+        
         setupBindings() //
-        cryptoVM.requestData(urlString: "https://raw.githubusercontent.com/atilsamancioglu/K21-JSONDataSet/refs/heads/master/crypto.json")
+        cryptoVM.requestData(urlString: urlString)
         
     }
     
+    //MARK: - Binds the data to View so the data is shown to users properly
     private func setupBindings(){ // we observe the CryptoVM data here and do the required operations like changeing the data on the screen.
         
         cryptoVM
@@ -62,16 +65,12 @@ class ViewController: UIViewController , UITableViewDelegate, UITableViewDataSou
              }
              .disposed(by: disposeBag)
          
-        
-        
          cryptoVM
             .loading
             .bind(to: self.indicatorView.rx.isAnimating)
             .disposed(by: disposeBag)
         
-        
     }
-
-
+    
 }
 
