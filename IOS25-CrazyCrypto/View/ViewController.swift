@@ -30,6 +30,8 @@ class ViewController: UIViewController , UITableViewDelegate, UITableViewDataSou
 
     
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var indicatorView: UIActivityIndicatorView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,28 +39,36 @@ class ViewController: UIViewController , UITableViewDelegate, UITableViewDataSou
         tableView.delegate = self
         tableView.dataSource = self
         
-        setupBindings()
+        setupBindings() //
         cryptoVM.requestData(urlString: "https://raw.githubusercontent.com/atilsamancioglu/K21-JSONDataSet/refs/heads/master/crypto.json")
-       
+        
     }
     
-    private func setupBindings(){
+    private func setupBindings(){ // we observe the CryptoVM data here and do the required operations like changeing the data on the screen.
+        
         cryptoVM
             .error
             .observe(on: MainScheduler.asyncInstance)
             .subscribe { errorString in
-                print("\(errorString)")
-            }
+                print(errorString)
+            }.disposed(by: disposeBag)
+        
+         cryptoVM
+             .cryptos
+             .observe(on: MainScheduler.asyncInstance)
+             .subscribe { cryptos in
+                 self.cryptoList = cryptos
+                 self.tableView.reloadData()
+             }
+             .disposed(by: disposeBag)
+         
+        
+        
+         cryptoVM
+            .loading
+            .bind(to: self.indicatorView.rx.isAnimating)
             .disposed(by: disposeBag)
         
-        cryptoVM
-            .cryptos
-            .observe(on: MainScheduler.asyncInstance)
-            .subscribe { cryptoArray in
-                self.cryptoList = cryptoArray
-                self.tableView.reloadData()
-            }
-            .disposed(by: disposeBag)
         
     }
 

@@ -20,6 +20,10 @@
                                 <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="medium" id="9BM-kv-jxy">
+                                <rect key="frame" x="0.0" y="404" width="393" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -31,12 +35,13 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="indicatorView" destination="9BM-kv-jxy" id="YMM-jF-1Xl"/>
                         <outlet property="tableView" destination="dBg-Ml-CWZ" id="tx4-l2-TiW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="315" y="34"/>
+            <point key="canvasLocation" x="313.74045801526717" y="33.802816901408455"/>
         </scene>
     </scenes>
     <resources>

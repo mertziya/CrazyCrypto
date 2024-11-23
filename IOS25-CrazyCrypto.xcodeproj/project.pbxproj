@@ -90,10 +90,10 @@
 				C63EC9CB2CF06F580086A9D2 /* Model */,
 				C63EC9C92CF06F440086A9D2 /* View */,
 				C63EC9CA2CF06F4C0086A9D2 /* VİewModel */,
+				C63EC9BE2CF06E030086A9D2 /* Main.storyboard */,
 				C63EC9B92CF06E030086A9D2 /* Assets.xcassets */,
 				C63EC9BA2CF06E030086A9D2 /* Info.plist */,
 				C63EC9BC2CF06E030086A9D2 /* LaunchScreen.storyboard */,
-				C63EC9BE2CF06E030086A9D2 /* Main.storyboard */,
 			);
 			path = "IOS25-CrazyCrypto";
 			sourceTree = "<group>";
