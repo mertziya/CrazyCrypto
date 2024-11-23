@@ -6,7 +6,7 @@ CrazyCrypto is a simple project designed to demonstrate the practical implementa
 architecture. The application fetches cryptocurrency data from a static JSON URL:
 
 [https://raw.githubusercontent.com/atilsamancioglu/K21-JSONDataSet/refs/heads/master/crypto.json](https://raw.githubusercontent.com/atilsamancioglu/K21-JSONDataSet/refs/heads/master/crypto.json) which contains data fields structured as follows:
-```json
+```
 {
   "currency": "String",
   "price": "String"
@@ -20,7 +20,7 @@ beginner-friendly example of working with MVVM and JSON data in iOS development.
 
 ## Structure: 
 
-[[MVVM swift.png|MVVM swift]]
+![MVVM Diagram](./MVVM%20swift.png)
 
 
 
