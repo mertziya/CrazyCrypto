@@ -1,4 +1,5 @@
 
+
 ## About:
 
 CrazyCrypto is a simple project designed to demonstrate the practical implementation of the MVVM (Model-View-ViewModel)
@@ -16,9 +17,12 @@ The data is presented in a straightforward manner using a table view, making thi
 beginner-friendly example of working with MVVM and JSON data in iOS development.
 
 
+
 ## Structure: 
 
-[[MVVM swift.canvas|MVVM swift]]
+[[MVVM swift.png|MVVM swift]]
+
+
 
 ## Future Goals:
 
